@@ -1,28 +1,33 @@
-# playerIntensifyApi
+# 我的世界Minecraft
 
-#### 使用方法
+### 玩家强化 PlayerIntensify 插件 的 API
 
-## 使用方法
+##### [MCBBS发布地址](https://www.mcbbs.net/thread-1198166-1-1.html)
 
-#### 初始化jar
-- 下载代码中的playerIntensify-1.0.3.jar   
-- 或者下载releases里的jar文件导入你的项目中
-- 或者使用maven引入依赖(本地机器私库,有时候不在线)
+##### [文档地址](https://handy-git.gitee.io/rice-doc/#/PlayerIntensify/zh_CN/)
 
+#### API使用教程
+
+[![](https://jitpack.io/v/com.gitee.handy-api/PlayerIntensify.svg)](https://jitpack.io/#com.gitee.handy-api/PlayerIntensify)
+
+要将本项目添加到您的构建中：
+
+步骤 1.将 JitPack 存储库添加到您的构建文件
 ```
 <repositories>
     <repository>
-        <id>minecraft</id>
-        <url>http://23.224.140.154:18208/repository/minecraft/</url>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
     </repository>
 </repositories>
-
+```
+步骤 2.添加依赖项
+```
 <dependency>
-  <groupId>com.handy.playerIntensify</groupId>
-  <artifactId>PlayerIntensify</artifactId>
-  <version>1.0.3</version>
+    <groupId>com.gitee.handy-api</groupId>
+    <artifactId>PlayerIntensify</artifactId>
+    <version>1.1.5</version>
 </dependency>
 ```
 
-
-具体查询: [javadoc](https://handy-git.github.io/PlayerIntensifyVersions/ "javadoc")
+[javadoc](https://handy-api.gitee.io/PlayerIntensify/)
