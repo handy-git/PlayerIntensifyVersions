@@ -10,6 +10,14 @@
     <version>2.0.8</version>
     <description>一个有点好用的强化插件</description>
 
+    <repositories>
+        <!-- This adds the Spigot Maven repository to the build -->
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spigot-api.vesion>1.19.2-R0.1-SNAPSHOT</spigot-api.vesion>
