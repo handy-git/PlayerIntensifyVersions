@@ -1,30 +1,33 @@
-## 玩家强化 PlayerIntensify 插件 的 API
+## 玩家强化PlayerIntensify插件
 
 ![](https://bstats.org/signatures/bukkit/PlayerIntensify.svg)
 
-[MCBBS](https://www.mcbbs.net/thread-1198166-1-1.html)
+* docs 为 javadoc
+* resources 为配置
+* src 为 API 目录
 
-[文档地址](https://ricedoc.handyplus.cn/wiki/PlayerIntensify/README/)
+### [MCBBS](https://www.mcbbs.net/thread-1198166-1-1.html)
 
-要将本项目添加到您的构建中：
+### [文档地址](https://ricedoc.handyplus.cn/wiki/PlayerIntensify/README/)
 
-[![](https://jitpack.io/v/handy-git/PlayerIntensifyVersions.svg)](https://jitpack.io/#handy-git/PlayerIntensifyVersions)
+### 引入jar
 
-步骤 1.将 JitPack 存储库添加到您的构建文件
+* 第一步
 ```
 <repositories>
     <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
+        <id>handy-maven</id>
+        <url>https://maven.handyplus.cn/repository/maven-public/</url>
     </repository>
 </repositories>
 ```
-步骤 2.添加依赖项
+* 第二步
 ```
 <dependency>
-    <groupId>com.github.handy-git</groupId>
-    <artifactId>PlayerIntensifyVersions</artifactId>
-    <version>2.0.8</version>
+  <groupId>com.handy.playerintensify</groupId>
+  <artifactId>PlayerIntensify</artifactId>
+  <version>2.1.2</version>
+  <scope>provided</scope>
 </dependency>
 ```
 
