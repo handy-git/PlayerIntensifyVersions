@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"com.handy.playerintensify"},{"l":"com.handy.playerintensify.api"},{"l":"com.handy.playerintensify.entity"},{"l":"com.handy.playerintensify.event"},{"l":"com.handy.playerintensify.param"},{"l":"所有程序包","u":"allpackages-index.html"}];updateSearchResults();
+packageSearchIndex = [{"l":"cn.handyplus.intensify"},{"l":"cn.handyplus.intensify.api"},{"l":"cn.handyplus.intensify.constants"},{"l":"cn.handyplus.intensify.entity"},{"l":"所有程序包","u":"allpackages-index.html"}];updateSearchResults();

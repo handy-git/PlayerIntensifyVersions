@@ -1,5 +1,4 @@
-com.handy.playerintensify
-com.handy.playerintensify.api
-com.handy.playerintensify.entity
-com.handy.playerintensify.event
-com.handy.playerintensify.param
+cn.handyplus.intensify
+cn.handyplus.intensify.api
+cn.handyplus.intensify.constants
+cn.handyplus.intensify.entity
